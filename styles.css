@@ -1,0 +1,258 @@
+body {
+  background-color: #E4C2C1;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #E4C2C1;
+}
+
+.navbar-custom {
+    background-color: #E4C2C1;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(182,102,111, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(182,102,111);
+}
+
+.nav-custom{
+  color: #B6666F;
+}
+
+.nav-custom:hover{
+  color: #D1A080;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.navbar-brand {
+  display: inline-block;
+  color: linear-gradient(to right, #ec008c, #fc6767);
+  text-decoration: none;
+}
+
+.navbar-brand::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #ec008c, #fc6767);
+  transition: width .3s;
+}
+
+.navbar-brand:hover::after {
+  width: 100%;
+}
+
+.nav-item {
+  letter-spacing: 5px;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 1.5rem;
+  padding-right: 5rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.nav-link {
+  display: inline-block;
+  color: linear-gradient(to right, #ec008c, #fc6767);
+  text-decoration: none;
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #ec008c, #fc6767);
+  transition: width .3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.intro {
+  margin-top: 7rem;
+  text-align: center;
+  animation: slideUp 2.4s ease;
+}
+
+.headline-1 {
+  color: #f53163;
+  letter-spacing: 6px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.headline-2 {
+  text-shadow: 3px 3px #D1A080;
+  margin-top: 2rem;
+  color: #F5B120;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  transition: transform .2s;
+}
+
+.headline-2:hover {
+  transform: scale(1.2);
+}
+
+@keyframes slideUp {
+  0%{
+    transform: translateY(150px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+.copyright {
+  text-align: center;
+  color: #fc6767;
+  letter-spacing: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.icon-bottom {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  position: static;
+}
+
+.icon-social {
+  color: #B6666F;
+  background: transparent;
+  border: transparent;
+  margin: 15px;
+  position: relative;
+  font-size: 20px;
+  transition: transform 0.2s;
+}
+
+.icon-social:hover{
+  transform: scale(1.2);
+  color: #D1A080;
+}
+
+.round-button-circle {
+
+  border-radius: 60%;
+  border: 2px solid #B6666F;
+  overflow: hidden;
+  background: transparent;
+  box-shadow: 0 0 3px #D1A080;
+}
+
+.carousel-custom {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.img-custom {
+  margin: auto;
+  box-shadow: 11px 11px 9px 9px #D1A080;
+  transition: transform 0.2s;
+}
+
+.carousel-inner {
+  max-height: 350px;
+}
+
+.carousel-control-prev {
+  left: 9rem;
+}
+
+.carousel-control-next {
+  right: 9rem;
+}
+
+.img-custom:hover {
+  transform: scale(1.2);
+}
+
+.card-container {
+  margin: 1.5rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.card {
+  box-shadow: 4px 4px 3px 3px #B6666F;
+  border-radius: 25px;
+  background-color: #fc6767;
+}
+
+.btn-primary {
+  background-color: #ec008c;
+  border-color: transparent;
+  color: #9796f0;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #9796f0;
+  color: #ec008c;
+  border-color: transparent;
+}
+
+.card-title {
+  font-family: 'Cairo', sans-serif;
+  font-size: 40px;
+}
+
+.people {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding-bottom: 3rem;
+}
+
+.headline-3 {
+  margin-bottom: 3rem;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #cc2b5e;
+  text-shadow: 3px 3px #753a88;
+}
+
+.custom-car2 {
+  margin-top: 10rem;
+}
+.car-2{
+  height: 200px;
+}
+.carousel-caption{
+  color: #753a88;
+  top: 50%;
+}
+
+.car-text {
+  color: #cc2b5e;
+  font-size: 20px;
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.donate-now {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
