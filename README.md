@@ -8,7 +8,7 @@
 
 ### ABOUT
 
-This is a cross platform web application that uses RazorPay Payment Gateway Integration API in test mode in order to check out the test transactionss. The UI is built with the help of HTML, CSS and Bootstrap Classes.  
+This is a cross platform web application that uses RazorPay Payment Gateway Integration API in test mode in order to check out the test transactions. The UI is built with the help of HTML, CSS and Bootstrap Classes.  
 
 ### SCREENSHOTS
 
